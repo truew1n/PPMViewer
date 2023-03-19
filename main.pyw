@@ -13,6 +13,7 @@ class App:
         self.show_image()
         self.root.mainloop()
 
+        
     def load_image(self):
         return Image.open("image.ppm")
 
